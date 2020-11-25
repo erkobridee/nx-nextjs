@@ -1,90 +1,97 @@
 # NxNextjs
 
-This project was generated using [Nx](https://nx.dev).
+## Goal
 
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+- check how the Next.js works with Nx
 
-🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
+## Documentation
 
-## Adding capabilities to your workspace
+- [Nx](docs/nx.md)
 
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
+  - [Nx Next.js Plugin](docs/nx-next-plugin.md)
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
+- [Project creation commands (steps)](docs/project-creation-commands.md)
 
-Below are our core plugins:
+<!--
 
-- [React](https://reactjs.org)
-  - `npm install --save-dev @nrwl/react`
-- Web (no framework frontends)
-  - `npm install --save-dev @nrwl/web`
-- [Angular](https://angular.io)
-  - `npm install --save-dev @nrwl/angular`
-- [Nest](https://nestjs.com)
-  - `npm install --save-dev @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `npm install --save-dev @nrwl/express`
-- [Node](https://nodejs.org)
-  - `npm install --save-dev @nrwl/node`
+## Project dependency graph
 
-There are also many [community plugins](https://nx.dev/nx-community) you could add.
+define
 
-## Generate an application
+> **implicit** - means some sort of manual configuration
 
-Run `nx g @nrwl/react:app my-app` to generate an application.
+## Findings
 
-> You can use any of the plugins above to generate applications as well.
+define
 
-When using Nx, you can create multiple applications and libraries in the same workspace.
+-->
 
-## Generate a library
+## Links
 
-Run `nx g @nrwl/react:lib my-lib` to generate a library.
+- [React](https://reactjs.org/)
 
-> You can also use any of the plugins above to generate libraries as well.
+  - [React Router](https://reactrouter.com/)
 
-Libraries are sharable across libraries and applications. They can be imported from `@nx-nextjs/mylib`.
+- [Next.js](https://nextjs.org/)
 
-## Development server
+  - [Next.js Docs](https://nextjs.org/docs/getting-started)
 
-Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+  - [[YouTube] Next.js Crash Course - SSG, SSR, and more (Updated for Next.JS 10+) (2020)](https://www.youtube.com/watch?v=dArDe9v5QIA)
 
-## Code scaffolding
+  - [[pt-BR][YouTube] Como inicio meus apps com ReactJS? Next.js, TypeScript, ESLint e Styled Components | Code/Drops #50](https://www.youtube.com/watch?v=1nVUfZg2dSA)
 
-Run `nx g @nrwl/react:component my-component --project=my-app` to generate a new component.
+  - [What is Static Site Generation? How Next.js Uses SSG for Dynamic Web Apps | freeCodeCamp](https://www.freecodecamp.org/news/static-site-generation-with-nextjs/)
 
-## Build
+  - [Nested dynamic layouts in Next.js apps | React Tricks](https://reacttricks.com/nested-dynamic-layouts-in-next-apps/) - [youtube](https://www.youtube.com/watch?v=69-mnojSa0M) | [github](https://github.com/kheruc/rt-nested-layouts)
 
-Run `nx build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+  - [[GitHub] erkobridee/nextjs-ssg-hello](https://github.com/erkobridee/nextjs-ssg-hello) - first contact with nextjs and the static site generation support
 
-## Running unit tests
+- [Nx: Extensible Dev Tools for Monorepos (React)](https://nx.dev/react)
 
-Run `nx test my-app` to execute the unit tests via [Jest](https://jestjs.io).
+  - [Plugins | Nx Docs](https://nx.dev/react/plugins/overview)
 
-Run `nx affected:test` to execute the unit tests affected by a change.
+  - [[YouTube] Nx: Extensible Dev Tools for Monorepos (React)](https://www.youtube.com/watch?v=E188J7E_MDU)
 
-## Running end-to-end tests
+  - [[YouTube] Nx Tutorial: High Quality React apps with Nx, Storybook & Cypress](https://www.youtube.com/watch?v=mfJBLhjYMdo)
 
-Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
+  - [Nx Now Supports Next.js | Nrwl](https://blog.nrwl.io/nx-now-supports-next-js-84ae3d0b2aed) - 2019/09/11
 
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
+    - [Next.js guide | Nx Docs](https://nx.dev/latest/react/guides/nextjs)
 
-## Understand your workspace
+    - [Next.js plugin | Nx Docs](https://nx.dev/latest/react/plugins/next/overview)
 
-Run `nx dep-graph` to see a diagram of the dependencies of your projects.
+    - [@nrwl/next | npm](https://www.npmjs.com/package/@nrwl/next)
 
-## Further help
+    - [[GitHub] nrwl/nx/packages/next](https://github.com/nrwl/nx/tree/master/packages/next) - Nx plugin for Next.js
 
-Visit the [Nx Documentation](https://nx.dev) to learn more.
+    - [Painlessly Build and Deploy Next.js Apps With Nx | Nrwl](https://blog.nrwl.io/painlessly-build-and-deploy-next-js-apps-with-nx-225e2721da78) - 2020/05/14
 
-## ☁ Nx Cloud
+    - [Improved Next.js support, auto-populated publishable library dependencies, and more in Nx 9.3! | Nrwl](https://blog.nrwl.io/improved-next-js-support-auto-populated-publishable-library-dependencies-and-more-in-nx-9-3-c7dc967dc065) - 2020/05/14
 
-### Computation Memoization in the Cloud
+  - [Storybook](https://storybook.js.org/)
 
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
+    - [[YouTube] Nx Tutorial: Nx Storybook Integration](https://www.youtube.com/watch?v=sFpqyjT7u4s)
 
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
+    - [How to Use Storybook in an Nx Repo | Nx Docs](https://nx.dev/react/plugins/storybook/overview)
 
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
+    - [Storybook support, run-many command, UI improvements, and more in Nx 8.8 | Nrwl](https://blog.nrwl.io/storybook-support-run-many-command-ui-improvements-and-more-in-nx-8-8-90575cb5dda4)
 
-Visit [Nx Cloud](https://nx.app/) to learn more.
+    - [Nx 8.8: Now You Can Write UI Tests with Storybook and Cypress | Nrwl](https://blog.nrwl.io/ui-testing-with-storybook-and-nx-4b86975224c)
+
+    - [Creating a Storybook instance including stories from multiple libraries in a Nrwl Nx workspace](https://medium.com/front-end-weekly/creating-a-storybook-instance-including-stories-from-multiple-libraries-in-a-nrwl-nx-workspace-89009a2bddf7)
+
+      - [[GitHub] juristr/nx-shared-storybook](https://github.com/juristr/nx-shared-storybook)
+
+  - [Powering Up React Development With Nx | Nrwl](https://blog.nrwl.io/powering-up-react-development-with-nx-cf0a9385dbec)
+
+  - [React Microfrontends and Monorepos: A Perfect Match | Nrwl](https://blog.nrwl.io/monorepos-and-react-microfrontends-a-perfect-match-d49dca64489a) - [demo](https://nrwl-nx-examples-cart.netlify.com/cart) | [code](https://github.com/nrwl/nx-examples)
+
+## Development tip
+
+- to make my life easier I have the current `node_modules` from the project mapped to the PATH env variable, that enables me to run the command `nx` directly, if you don't have if you must use the short cut mapped on the `package.json`, using it like `npm run nx ...` or it's also possible to use like `npx nx ...` (the `npx` will look into the local installed packages `./node_modules/` and on the global installed packages)
+
+  - `./node_modules/.bin`
+
+### Known issues on MacOS
+
+- [How to fix the Node gyp Error: No Xcode or CLT version detected | Reactgo](https://reactgo.com/gyp-xcode-or-clt-version-detected/)
