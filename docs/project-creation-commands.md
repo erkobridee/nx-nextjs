@@ -18,3 +18,26 @@ nx cloud: no
 2. add the next.js dev dependency to the nx workspace:
 
 `npm i --save-dev @nrwl/next`
+
+3. create the next.js site (named as nextjs) inside of the nx workspace:
+
+```
+nx generate @nrwl/next:app nextjs
+nx g @nrwl/next:app nextjs
+
+npm run nx ...
+npx nx ...
+
+style: SASS
+```
+
+4. running the created (next.js) site:
+
+`nx serve nextjs`
+
+> to test the production version run it with the flag --prod
+
+```
+nx build nextjs
+nx serve --prod nextjs
+```

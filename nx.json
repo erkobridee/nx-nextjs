@@ -29,6 +29,13 @@
     "app-e2e": {
       "tags": [],
       "implicitDependencies": ["app"]
+    },
+    "nextjs": {
+      "tags": []
+    },
+    "nextjs-e2e": {
+      "tags": [],
+      "implicitDependencies": ["nextjs"]
     }
   }
 }
