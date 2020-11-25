@@ -50,3 +50,10 @@ nx export nextjs
 ```
 
 > the exported output it will be generated on the given path `dist/apps/nextjs/exported/`
+
+6. create a reusable shared components library:
+
+```
+nx generate @nrwl/react:lib components --directory=shared
+nx g @nrwl/react:lib components --directory=shared
+```

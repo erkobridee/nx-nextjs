@@ -36,6 +36,9 @@
     "nextjs-e2e": {
       "tags": [],
       "implicitDependencies": ["nextjs"]
+    },
+    "shared-components": {
+      "tags": []
     }
   }
 }
