@@ -14,3 +14,7 @@ application name: app
 styles: SASS
 nx cloud: no
 ```
+
+2. add the next.js dev dependency to the nx workspace:
+
+`npm i --save-dev @nrwl/next`
