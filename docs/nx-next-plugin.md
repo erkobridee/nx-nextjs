@@ -4,6 +4,10 @@
 
 - [Nx Now Supports Next.js | Nrwl](https://blog.nrwl.io/nx-now-supports-next-js-84ae3d0b2aed) - 2019/09/11
 
+  - [[YouTube] Nx Adds Next.js Support](https://www.youtube.com/watch?v=dmwgmHJ8_Ms) - 2019/09/11
+
+  - [[YouTube] Nx + Next.js = ❤️ - Adam L Barrett](https://www.youtube.com/watch?v=chBOFzpGpyo) - 2020/11/05
+
   - [Next.js guide | Nx Docs](https://nx.dev/latest/react/guides/nextjs)
 
   - [Next.js plugin | Nx Docs](https://nx.dev/latest/react/plugins/next/overview)
@@ -31,6 +35,8 @@ define
   - [[YouTube] Next.js Crash Course - SSG, SSR, and more (Updated for Next.JS 10+) (2020)](https://www.youtube.com/watch?v=dArDe9v5QIA)
 
   - [[pt-BR][YouTube] Como inicio meus apps com ReactJS? Next.js, TypeScript, ESLint e Styled Components | Code/Drops #50](https://www.youtube.com/watch?v=1nVUfZg2dSA)
+
+  - [[YouTube] Mastering the basics of SEO in React and Next.js](https://www.youtube.com/watch?v=GfsqFaiaK3A)
 
   - [What is Static Site Generation? How Next.js Uses SSG for Dynamic Web Apps | freeCodeCamp](https://www.freecodecamp.org/news/static-site-generation-with-nextjs/)
 

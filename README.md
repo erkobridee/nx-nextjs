@@ -40,6 +40,8 @@ define
 
   - [[pt-BR][YouTube] Como inicio meus apps com ReactJS? Next.js, TypeScript, ESLint e Styled Components | Code/Drops #50](https://www.youtube.com/watch?v=1nVUfZg2dSA)
 
+  - [[YouTube] Mastering the basics of SEO in React and Next.js](https://www.youtube.com/watch?v=GfsqFaiaK3A)
+
   - [What is Static Site Generation? How Next.js Uses SSG for Dynamic Web Apps | freeCodeCamp](https://www.freecodecamp.org/news/static-site-generation-with-nextjs/)
 
   - [Nested dynamic layouts in Next.js apps | React Tricks](https://reacttricks.com/nested-dynamic-layouts-in-next-apps/) - [youtube](https://www.youtube.com/watch?v=69-mnojSa0M) | [github](https://github.com/kheruc/rt-nested-layouts)
@@ -55,6 +57,10 @@ define
   - [[YouTube] Nx Tutorial: High Quality React apps with Nx, Storybook & Cypress](https://www.youtube.com/watch?v=mfJBLhjYMdo)
 
   - [Nx Now Supports Next.js | Nrwl](https://blog.nrwl.io/nx-now-supports-next-js-84ae3d0b2aed) - 2019/09/11
+
+    - [[YouTube] Nx Adds Next.js Support](https://www.youtube.com/watch?v=dmwgmHJ8_Ms) - 2019/09/11
+
+    - [[YouTube] Nx + Next.js = ❤️ - Adam L Barrett](https://www.youtube.com/watch?v=chBOFzpGpyo) - 2020/11/05
 
     - [Next.js guide | Nx Docs](https://nx.dev/latest/react/guides/nextjs)
 
