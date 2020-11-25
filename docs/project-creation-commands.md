@@ -41,3 +41,12 @@ style: SASS
 nx build nextjs
 nx serve --prod nextjs
 ```
+
+5. export the static site from the (next.js) site:
+
+```
+nx build nextjs
+nx export nextjs
+```
+
+> the exported output it will be generated on the given path `dist/apps/nextjs/exported/`
