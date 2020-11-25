@@ -32,7 +32,9 @@ define
 
   - [Next.js Docs](https://nextjs.org/docs/getting-started)
 
-  - [[YouTube] Next.js Crash Course - SSG, SSR, and more (Updated for Next.JS 10+) (2020)](https://www.youtube.com/watch?v=dArDe9v5QIA)
+  - [[YouTube] Next.js Crash Course - SSG, SSR, and more (Updated for Next.JS 10+) (2020)](https://www.youtube.com/watch?v=dArDe9v5QIA) - 2020/11/03
+
+  - [[YouTube] Next.js Crash Course - SSG, SSR, API Routes, and more](https://www.youtube.com/watch?v=q-sYloF3xKM) - 2020/08/27
 
   - [[pt-BR][YouTube] Como inicio meus apps com ReactJS? Next.js, TypeScript, ESLint e Styled Components | Code/Drops #50](https://www.youtube.com/watch?v=1nVUfZg2dSA)
 
