@@ -30,15 +30,15 @@
       "tags": [],
       "implicitDependencies": ["app"]
     },
+    "shared-components": {
+      "tags": []
+    },
     "nextjs": {
       "tags": []
     },
     "nextjs-e2e": {
       "tags": [],
       "implicitDependencies": ["nextjs"]
-    },
-    "shared-components": {
-      "tags": []
     }
   }
 }

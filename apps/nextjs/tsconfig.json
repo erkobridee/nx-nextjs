@@ -10,15 +10,14 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "baseUrl": "src",
-    "paths": {
-      "public/*": ["../public/*"],
-      "@nx-nextjs/shared/components": [
-        "../../../libs/shared/components/src/index.ts"
-      ]
-    }
+    "isolatedModules": true
   },
   "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts"],
-  "exclude": ["**/*.spec.ts", "**/*.spec.tsx", "node_modules"]
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.spec.js",
+    "**/*.spec.jsx"
+  ]
 }
