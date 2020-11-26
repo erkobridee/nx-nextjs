@@ -3,8 +3,6 @@
 
 import WelcomePage from '../components/WelcomePage';
 
-export function Index() {
-  return <WelcomePage />;
-}
+export const Index = () => <WelcomePage />;
 
 export default Index;
