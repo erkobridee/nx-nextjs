@@ -6,6 +6,7 @@
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "rules": {
+        "react/react-in-jsx-scope": "off",
         "@nrwl/nx/enforce-module-boundaries": [
           "error",
           {
