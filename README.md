@@ -10,6 +10,8 @@
 
   - [Nx Next.js Plugin](docs/nx-next-plugin.md)
 
+- [TailwindCSS](docs/tailwindcss.md)
+
 - [Project creation commands (steps)](docs/project-creation-commands.md)
 
 <!--

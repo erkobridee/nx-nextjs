@@ -66,3 +66,13 @@ nx g @nrwl/react:component TargetBlankLink --project=shared-components --export
 ```
 
 8. use the TargetBlankLink shared component on the `app` and `nextjs` applications
+
+9. add TailwindCSS dev dependency into the nx workspace:
+
+`npm i -D tailwindcss`
+
+10. initialize the root `tailwind.config.js` file:
+
+`npx tailwind init`
+
+11. define the `postcss.config.js` file to add the TailwindCSS support into the nx workspace
