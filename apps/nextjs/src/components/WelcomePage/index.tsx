@@ -6,11 +6,6 @@ import { TargetBlankLink } from '@nx-nextjs/shared/components';
 import styles from './index.module.scss';
 
 export function WelcomePage() {
-  /*
-   * Replace the elements below with your own.
-   *
-   * Note: The corresponding styles are in the ./index.scss file.
-   */
   return (
     <div className={styles.page}>
       <h2>Resources &amp; Tools</h2>
