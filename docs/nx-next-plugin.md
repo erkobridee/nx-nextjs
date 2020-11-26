@@ -32,6 +32,8 @@ define
 
   - [Next.js Docs](https://nextjs.org/docs/getting-started)
 
+    - [Customizing PostCSS Config](https://nextjs.org/docs/advanced-features/customizing-postcss-config)
+
   - [[YouTube] Next.js Crash Course - SSG, SSR, and more (Updated for Next.JS 10+) (2020)](https://www.youtube.com/watch?v=dArDe9v5QIA) - 2020/11/03
 
   - [[YouTube] Next.js Crash Course - SSG, SSR, API Routes, and more](https://www.youtube.com/watch?v=q-sYloF3xKM) - 2020/08/27
