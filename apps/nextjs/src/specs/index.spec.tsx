@@ -1,4 +1,6 @@
-import React from 'react';
+// it's not needed with React v17
+// import React from 'react';
+
 import { render } from '@testing-library/react';
 
 import Index from '../pages/index';

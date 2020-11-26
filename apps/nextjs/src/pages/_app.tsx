@@ -1,9 +1,10 @@
-import React from 'react';
+// it's not needed with React v17
+// import React from 'react';
 
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 
-import { ReactComponent as NxLogo } from '../public/nx-logo-white.svg';
+import { ReactComponent as NxLogo } from '../../public/nx-logo-white.svg';
 
 import '../styles/global.scss';
 

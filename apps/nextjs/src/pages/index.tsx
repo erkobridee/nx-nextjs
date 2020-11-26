@@ -1,4 +1,5 @@
-import React from 'react';
+// it's not needed with React v17
+// import React from 'react';
 
 import { TargetBlankLink } from '@nx-nextjs/shared/components';
 

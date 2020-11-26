@@ -1,5 +1,8 @@
 // https://nextjs.org/docs/advanced-features/custom-document
 
+// it's not needed with React v17
+// import React from 'react';
+
 import Document, {
   DocumentContext,
   Html,
