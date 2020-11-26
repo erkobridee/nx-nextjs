@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import SharedComponents from './shared-components';
+import SharedComponents from './index';
 
 describe('SharedComponents', () => {
   it('should render successfully', () => {

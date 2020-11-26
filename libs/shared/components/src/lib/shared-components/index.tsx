@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './shared-components.scss';
+import './index.module.scss';
 
 /* eslint-disable-next-line */
 export interface SharedComponentsProps {}

@@ -1,3 +1,3 @@
-import Welcome from 'pages/Welcome';
+import Welcome from './Welcome';
 
 export default Welcome;

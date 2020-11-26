@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { TargetBlankLink } from '@nx-nextjs/shared/components';
+
 import styles from './index.module.scss';
 
 export const Welcome = () => (
@@ -7,18 +9,14 @@ export const Welcome = () => (
     <h2>Resources &amp; Tools</h2>
     <p>Thank you for using and showing some ♥ for Nx.</p>
     <div className="flex github-star-container">
-      <a
-        href="https://github.com/nrwl/nx"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <TargetBlankLink href="https://github.com/nrwl/nx">
         {' '}
         If you like Nx, please give it a star:
         <div className="github-star-badge">
           <img src="/star.svg" className="material-icons" alt="" />
           Star
         </div>
-      </a>
+      </TargetBlankLink>
     </div>
     <p>Here are some links to help you get started.</p>
     <ul className="resources">

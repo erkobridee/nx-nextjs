@@ -57,3 +57,12 @@ nx export nextjs
 nx generate @nrwl/react:lib components --directory=shared
 nx g @nrwl/react:lib components --directory=shared
 ```
+
+7. generate TargetBlankLink shared component
+
+```
+nx generate @nrwl/react:component TargetBlankLink --project=shared-components --export
+nx g @nrwl/react:component TargetBlankLink --project=shared-components --export
+```
+
+8. use the TargetBlankLink shared component on the `app` and `nextjs` applications
