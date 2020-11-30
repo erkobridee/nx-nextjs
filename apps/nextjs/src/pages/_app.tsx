@@ -3,10 +3,10 @@ import React from 'react';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 
-import { ReactComponent as NxLogo } from '../../public/nx-logo-white.svg';
+import { ReactComponent as NxLogo } from '@nx-nextjs/shared/assets/images/nx-logo-white.svg';
 
-import '../styles/tailwind.scss';
-import '../styles/global.scss';
+import '@nx-nextjs/shared/assets/styles/tailwind.scss';
+import '@nx-nextjs/shared/assets/styles/global.scss';
 
 export const CustomApp: React.FunctionComponent<AppProps> = ({
   Component,

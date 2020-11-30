@@ -5,6 +5,8 @@ import { TargetBlankLink } from '@nx-nextjs/shared/components';
 
 import styles from './index.module.scss';
 
+import star from '@nx-nextjs/shared/assets/images/star.svg';
+
 export const WelcomePage = () => (
   <div className={styles.page}>
     <h2>Resources &amp; Tools</h2>
@@ -14,7 +16,7 @@ export const WelcomePage = () => (
         {' '}
         If you like Nx, please give it a star:
         <div className="github-star-badge">
-          <img src="/star.svg" className="material-icons" alt="" />
+          <img src={star} className="material-icons" alt="" />
           Star
         </div>
       </TargetBlankLink>
