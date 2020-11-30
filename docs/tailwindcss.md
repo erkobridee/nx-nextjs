@@ -10,7 +10,7 @@
 
   - [Optimizing for Production](https://tailwindcss.com/docs/optimizing-for-production)
 
-    - the purge uses the [glob notation](https://github.com/isaacs/node-glob#glob-primer)
+    - the [purge](https://purgecss.com/) uses the [glob notation](https://github.com/isaacs/node-glob#glob-primer)
 
 - [Tailwind CSS IntelliSense | VS Code - Extensions](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
@@ -27,3 +27,13 @@
 - [Adding Tailwind support to a Nrwl NX workspace with Angular and Storybook | JavaScript in plain English](https://medium.com/javascript-in-plain-english/adding-tailwind-support-to-a-nrwl-nx-workspace-with-angular-and-storybook-bf890ea882e) - 2020/03/26
 
 - [[GitHub] Can't use Tailwindcss in Nx Next project #2298 | nrwl/nx](https://github.com/nrwl/nx/issues/2298)
+
+## PostCSS
+
+- [PostCSS](https://postcss.org/)
+
+- [postcss-loader | webpack](https://webpack.js.org/loaders/postcss-loader/)
+
+- [Webpack with PostCSS | E.Y.](https://elfi-y.medium.com/webpack-with-postcss-cc022268aea7) - 2020/09/28
+
+- [How to PostCSS with Webpack 5 - Setup Tutorial | rw;eruch](https://www.robinwieruch.de/webpack-postcss) - 2020/10/30
