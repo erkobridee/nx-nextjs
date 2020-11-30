@@ -76,3 +76,17 @@ nx g @nrwl/react:component TargetBlankLink --project=shared-components --export
 `npx tailwind init`
 
 11. define the `postcss.config.js` file to add the TailwindCSS support into the nx workspace
+
+12. add new dependencies to cleanup the project
+
+```
+npm i -D rimraf npm-run-all
+```
+
+13. define new scripts on `package.json` to do project cleanup
+
+```
+npm run clean:dist
+npm run clean:cache
+npm run clean
+```
