@@ -18,7 +18,13 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
       }
     }
   },
@@ -30,15 +36,19 @@
       "tags": [],
       "implicitDependencies": ["app"]
     },
-    "shared-components": {
-      "tags": []
-    },
     "nextjs": {
       "tags": []
     },
     "nextjs-e2e": {
       "tags": [],
       "implicitDependencies": ["nextjs"]
+    },
+    "shared-components": {
+      "tags": []
+    },
+    "shared-components-e2e": {
+      "tags": [],
+      "implicitDependencies": ["shared-components"]
     }
   }
 }

@@ -90,3 +90,13 @@ npm run clean:dist
 npm run clean:cache
 npm run clean
 ```
+
+14. add storybook support to the nx worspace
+
+> [Storybook | Nx Docs](https://nx.dev/latest/react/plugins/storybook/overview)
+
+```
+npm i -D @nrwl/storybook
+
+nx g @nrwl/react:storybook-configuration shared-components
+```
