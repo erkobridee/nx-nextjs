@@ -106,3 +106,10 @@ nx g @nrwl/react:storybook-configuration shared-components
 ```
 nx g @nrwl/workspace:lib assets --directory=shared
 ```
+
+useful reference: [[YouTube] 9. Shared assets library and nx.json - Nx Workspaces Course, by Nrwl](https://youtu.be/LYjX2V-eQa8), the code of the example is available on the [[GitHub] nrwl/board-game-hoard](https://github.com/nrwl/board-game-hoard)
+
+after define the code and the libs code structure
+
+- update the `tsconfig.json` to expose the full content of the lib
+- update the lib configuration on the `workspace.json`
