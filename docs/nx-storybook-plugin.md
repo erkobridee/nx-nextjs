@@ -18,7 +18,7 @@
 
 - [Storybook](https://storybook.js.org/)
 
-  - [Storybook for React](https://storybook.js.org/docs/react/)
+  - [Storybook for React](https://storybook.js.org/docs/react/) - remember that the global styles them must be imported on `.storybook/preview.js`
 
     - [Essential addons](https://storybook.js.org/docs/react/essentials/introduction)
 

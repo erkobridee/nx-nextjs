@@ -7,8 +7,8 @@ export interface SharedComponentsProps {}
 
 export function SharedComponents(props: SharedComponentsProps) {
   return (
-    <div>
-      <h1>Welcome to shared-components!</h1>
+    <div className="rounded shadow-md p-3">
+      <h1 className="text-blue-500">Welcome to shared-components!</h1>
     </div>
   );
 }

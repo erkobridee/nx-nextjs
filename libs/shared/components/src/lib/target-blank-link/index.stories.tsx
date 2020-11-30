@@ -8,6 +8,8 @@ export default {
 
 export const Example = () => {
   return (
-    <TargetBlankLink href="https://google.com">google.com</TargetBlankLink>
+    <TargetBlankLink className="text-blue-700" href="https://google.com">
+      google.com
+    </TargetBlankLink>
   );
 };
