@@ -10,6 +10,8 @@
 
   - [Optimizing for Production](https://tailwindcss.com/docs/optimizing-for-production)
 
+    - the purge uses the [glob notation](https://github.com/isaacs/node-glob#glob-primer)
+
 - [Tailwind CSS IntelliSense | VS Code - Extensions](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 - [Start a Component Library with Storybook, Tailwind CSS, and TypeScript | BetterProgramming](https://medium.com/better-programming/start-a-component-library-with-storybook-tailwind-css-and-typescript-ebaffc33d098) - 2020/04/02
