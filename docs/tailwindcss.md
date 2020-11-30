@@ -8,6 +8,10 @@
 
   - [configuration](https://tailwindcss.com/docs/configuration)
 
+  - [Optimizing for Production](https://tailwindcss.com/docs/optimizing-for-production)
+
+- [Tailwind CSS IntelliSense | VS Code - Extensions](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
 - [Start a Component Library with Storybook, Tailwind CSS, and TypeScript | BetterProgramming](https://medium.com/better-programming/start-a-component-library-with-storybook-tailwind-css-and-typescript-ebaffc33d098) - 2020/04/02
 
   - [[GitHub] elisealcala/storybook-tailwind-ts](https://github.com/elisealcala/storybook-tailwind-ts)
