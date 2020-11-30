@@ -100,3 +100,9 @@ npm i -D @nrwl/storybook
 
 nx g @nrwl/react:storybook-configuration shared-components
 ```
+
+15. create a shared assets lib
+
+```
+nx g @nrwl/workspace:lib assets --directory=shared
+```

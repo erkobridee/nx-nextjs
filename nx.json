@@ -49,6 +49,9 @@
     "shared-components-e2e": {
       "tags": [],
       "implicitDependencies": ["shared-components"]
+    },
+    "shared-assets": {
+      "tags": []
     }
   }
 }

@@ -249,6 +249,11 @@
           }
         }
       }
+    },
+    "shared-assets": {
+      "root": "libs/shared/assets",
+      "sourceRoot": "libs/shared/assets",
+      "projectType": "library"
     }
   },
   "cli": {
