@@ -1,0 +1,7 @@
+**/node_modules
+**/public
+**/.cache
+
+**/.storybook
+
+**/webpack.config.js

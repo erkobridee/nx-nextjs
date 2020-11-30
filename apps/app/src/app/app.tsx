@@ -2,10 +2,8 @@ import React from 'react';
 
 import { TargetBlankLink } from '@nx-nextjs/shared/components';
 
-import './app.scss';
-
-import { ReactComponent as Logo } from './logo.svg';
-import star from './star.svg';
+import { ReactComponent as Logo } from '@nx-nextjs/shared/assets/images/nx-logo-white.svg';
+import star from '@nx-nextjs/shared/assets/images/star.svg';
 
 export function App() {
   /*
@@ -17,7 +15,7 @@ export function App() {
     <div className="app">
       <header className="flex">
         <Logo width="75" height="75" />
-        <h1>Welcome to app!</h1>
+        <h1 className="text-green-500">Welcome to app!</h1>
       </header>
       <main>
         <h2>Resources &amp; Tools</h2>
