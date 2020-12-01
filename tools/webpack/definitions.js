@@ -9,7 +9,10 @@ const stylesWithPostcssRule = {
   use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
 };
 
+const WEBFONTS_REGEX = /\.(woff(2)?|eot|ttf|otf)(\?v=\d+\.\d+\.\d+)?$/;
+
 module.exports = {
   tsPaths,
   stylesWithPostcssRule,
+  WEBFONTS_REGEX,
 };
