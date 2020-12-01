@@ -46,6 +46,8 @@
 
 * [Use Cypress and Storybook to test your React Components in Isolation](https://egghead.io/lessons/javascript-use-cypress-and-storybook-to-test-your-react-components-in-isolation)
 
+* [Add Custom fonts to react-storybook | DEV](https://dev.to/coderreviewio/add-custom-fonts-to-react-storybook-5465) - [github code](https://github.com/codeReview-youtube/story-custom-font) | [youtube](https://www.youtube.com/watch?v=2kxeVjy39lI)
+
 ## Known issues
 
 ### Import path from other libraries
