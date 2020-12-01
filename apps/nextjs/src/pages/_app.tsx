@@ -5,6 +5,7 @@ import Head from 'next/head';
 
 import { ReactComponent as NxLogo } from '@nx-nextjs/shared/assets/images/nx-logo-white.svg';
 
+import '@nx-nextjs/shared/assets/styles/fonts.scss';
 import '@nx-nextjs/shared/assets/styles/tailwind.scss';
 import '@nx-nextjs/shared/assets/styles/global.scss';
 

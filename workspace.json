@@ -26,9 +26,15 @@
                 "input": "libs/shared/assets/images",
                 "glob": "**/*",
                 "output": "assets/images"
+              },
+              {
+                "input": "libs/shared/assets/fonts",
+                "glob": "**/*",
+                "output": "assets/fonts"
               }
             ],
             "styles": [
+              "libs/shared/assets/styles/fonts.scss",
               "libs/shared/assets/styles/tailwind.scss",
               "libs/shared/assets/styles/global.scss",
               "apps/app/src/styles.scss"

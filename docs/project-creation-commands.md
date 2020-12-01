@@ -113,7 +113,8 @@ after define the code and the libs code structure
 
 - update the `tsconfig.json` to expose the full content of the lib
 - update the lib configuration on the `workspace.json`
+- install the node development dependency: `fs-extra`
 - update the apps to use the shared assets lib content
   - the imported images
   - map the styles to load from the lib
-  - on the `nextjs` app update the `next.config.js` to keep the `favicon.ico` synced with the lib
+- define a plugin to config the nextjs application to interact with nx and other needed resources like the shared assets lib
