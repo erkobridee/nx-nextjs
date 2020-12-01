@@ -51,3 +51,5 @@ define
     - [[npm] next-fonts](https://www.npmjs.com/package/next-fonts) - add extra fonts support
 
   - [[GitHub] erkobridee/nextjs-ssg-hello](https://github.com/erkobridee/nextjs-ssg-hello) - first contact with nextjs and the static site generation support
+
+- [Using web fonts with SASS and Webpack | DEV](https://dev.to/varya/using-web-fonts-with-sass-and-webpack-51m4)
