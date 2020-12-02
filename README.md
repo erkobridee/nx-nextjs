@@ -62,6 +62,8 @@ define
 
   - [[YouTube] Nx Tutorial: High Quality React apps with Nx, Storybook & Cypress](https://www.youtube.com/watch?v=mfJBLhjYMdo)
 
+  - [Scale React Development with Nx | Egghead.io](https://egghead.io/playlists/scale-react-development-with-nx-4038)
+
   - [Nx Now Supports Next.js | Nrwl](https://blog.nrwl.io/nx-now-supports-next-js-84ae3d0b2aed) - 2019/09/11
 
     - [[YouTube] Nx Adds Next.js Support](https://www.youtube.com/watch?v=dmwgmHJ8_Ms) - 2019/09/11
