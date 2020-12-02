@@ -10,7 +10,9 @@ import star from '@nx-nextjs/shared/assets/images/star.svg';
 export const WelcomePage = () => (
   <div className={styles.page}>
     <h2>Resources &amp; Tools</h2>
-    <p>Thank you for using and showing some ♥ for Nx.</p>
+    <p className="font-open-sans italic">
+      Thank you for using and showing some ♥ for Nx.
+    </p>
     <div className="flex github-star-container">
       <TargetBlankLink href="https://github.com/nrwl/nx">
         {' '}
@@ -21,7 +23,9 @@ export const WelcomePage = () => (
         </div>
       </TargetBlankLink>
     </div>
-    <p>Here are some links to help you get started.</p>
+    <p className="font-open-sans font-thin">
+      Here are some links to help you get started.
+    </p>
     <ul className="resources">
       <li className="col-span-2">
         <a
@@ -59,7 +63,9 @@ export const WelcomePage = () => (
       </li>
     </ul>
     <h2>Next Steps</h2>
-    <p>Here are some things you can do with Nx.</p>
+    <p className="font-open-sans font-thin">
+      Here are some things you can do with Nx.
+    </p>
     <details open>
       <summary>Add UI library</summary>
       <pre>{`# Generate UI lib
