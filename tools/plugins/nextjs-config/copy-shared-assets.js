@@ -16,10 +16,7 @@ const SHARED_ASSETS_LIB_PATH = path.resolve(appRootPath, 'libs/shared/assets');
 
 const doCopy = (src, dest) => copySync(src, dest, { overwrite: true });
 
-const copyAssets = (
-  projectDirPath,
-  toCopy = [FAVICON_FILENAME, /*'fonts',*/ 'images']
-) => {
+const copyAssets = (projectDirPath, toCopy = [FAVICON_FILENAME, 'images']) => {
   const projectPublicPath = path.resolve(projectDirPath, 'public');
 
   if (toCopy.includes(FAVICON_FILENAME)) {

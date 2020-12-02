@@ -5,7 +5,7 @@ const nextWebpack = require('./next-webpack');
 
 const extendsNextjsConfig = (projectDirPath, toCopy) => {
   copyAssets(projectDirPath, toCopy);
-  return (nextConfig = {}) => withNx(nextWebpack(nextConfig));
+  return (nextConfig = {}) => nextWebpack(withNx(nextConfig));
 };
 
 module.exports = extendsNextjsConfig;

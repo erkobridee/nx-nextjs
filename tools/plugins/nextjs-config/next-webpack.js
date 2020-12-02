@@ -11,28 +11,17 @@ const baseWebpackToolsPath = `${appRootPath}/tools/webpack`;
 const definitions = require(`${baseWebpackToolsPath}/definitions`);
 const utils = require(`${baseWebpackToolsPath}/utils`);
 
-const DEFAULT_INLINE_FONT_LIMIT = 8192;
-
 module.exports = (nextConfig = {}) => {
   const userWebpack = nextConfig.webpack || ((x) => x);
   return {
     ...nextConfig,
     webpack: (config, options) => {
-      // const assetPrefix = nextConfig.assetPrefix || '';
-      const limit = nextConfig.inlineFontLimit || DEFAULT_INLINE_FONT_LIMIT;
-
-      const { WEBFONTS_REGEX, WEBFONTS_ISSUER_REGEX } = definitions;
-      utils.addModuleRule(config, {
-        test: WEBFONTS_REGEX,
-        issuer: WEBFONTS_ISSUER_REGEX,
-        loader: 'url-loader',
-        options: {
-          limit,
-          fallback: 'file-loader',
-          publicPath: '',
-          name: '[name]-[hash].[ext]',
-        },
+      utils.addResolveAlias(config, {
+        // redefine the alias because the nextjs internally adds `./` to the CSS url() path
+        [`./@nx-nextjs/shared/assets/fonts`]: `${appRootPath}/libs/shared/assets/fonts`,
       });
+
+      utils.addModuleRule(config, definitions.webfontsNextjsAppRule);
 
       return userWebpack(config, options);
     },

@@ -9,8 +9,6 @@ const addResolveAlias = (config, newAlias) => {
     ...alias,
     ...newAlias,
   };
-
-  console.log(config.resolve.alias);
 };
 
 const addResolvePlugin = (config, plugin) => {
@@ -25,6 +23,7 @@ const addModuleRule = (config, rule) => {
     : (config.module.rules = [rule]);
 };
 
+// used to update the webpack config for react applications
 const removeStylesFromRules = (config) => {
   // it's needed to remove the default styles configuration from
   // the nx workspace to avoid compilation error
