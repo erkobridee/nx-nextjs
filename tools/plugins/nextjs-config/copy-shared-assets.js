@@ -18,7 +18,7 @@ const doCopy = (src, dest) => copySync(src, dest, { overwrite: true });
 
 const copyAssets = (
   projectDirPath,
-  toCopy = [FAVICON_FILENAME, 'fonts', 'images']
+  toCopy = [FAVICON_FILENAME, /*'fonts',*/ 'images']
 ) => {
   const projectPublicPath = path.resolve(projectDirPath, 'public');
 

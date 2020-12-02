@@ -1,1 +1,124 @@
-/* TODO: define the local webfonts */
+/*
+  fonts from the github repository
+  https://github.com/FontFaceKit/open-sans
+*/
+
+/* BEGIN Light */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/Light/OpenSans-Light.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/Light/OpenSans-Light.woff?v=1.101')
+      format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+/* END Light */
+
+/* BEGIN Light Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/LightItalic/OpenSans-LightItalic.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/LightItalic/OpenSans-LightItalic.woff?v=1.101')
+      format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+/* END Light Italic */
+
+/* BEGIN Regular */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/Regular/OpenSans-Regular.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/Regular/OpenSans-Regular.woff?v=1.101')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* END Regular */
+
+/* BEGIN Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/Italic/OpenSans-Italic.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/Italic/OpenSans-Italic.woff?v=1.101')
+      format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+/* END Italic */
+
+/* BEGIN Semibold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/SemiBold/OpenSans-SemiBold.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/SemiBold/OpenSans-SemiBold.woff?v=1.101')
+      format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+/* END Semibold */
+
+/* BEGIN Semibold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/SemiBoldItalic/OpenSans-SemiBoldItalic.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/SemiBoldItalic/OpenSans-SemiBoldItalic.woff?v=1.101')
+      format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+/* END Semibold Italic */
+
+/* BEGIN Bold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/Bold/OpenSans-Bold.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/Bold/OpenSans-Bold.woff?v=1.101')
+      format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+/* END Bold */
+
+/* BEGIN Bold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/BoldItalic/OpenSans-BoldItalic.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/BoldItalic/OpenSans-BoldItalic.woff?v=1.101')
+      format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+/* END Bold Italic */
+
+/* BEGIN Extrabold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/ExtraBold/OpenSans-ExtraBold.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/ExtraBold/OpenSans-ExtraBold.woff?v=1.101')
+      format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+/* END Extrabold */
+
+/* BEGIN Extrabold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('@nx-nextjs/shared/assets/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff2?v=1.101')
+      format('woff2'),
+    url('@nx-nextjs/shared/assets/fonts/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff?v=1.101')
+      format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+/* END Extrabold Italic */

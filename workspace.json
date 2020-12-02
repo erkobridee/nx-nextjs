@@ -26,11 +26,6 @@
                 "input": "libs/shared/assets/images",
                 "glob": "**/*",
                 "output": "assets/images"
-              },
-              {
-                "input": "libs/shared/assets/fonts",
-                "glob": "**/*",
-                "output": "assets/fonts"
               }
             ],
             "styles": [

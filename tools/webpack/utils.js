@@ -3,6 +3,16 @@
   https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webpack
 */
 
+const addResolveAlias = (config, newAlias) => {
+  const { alias } = config.resolve;
+  config.resolve.alias = {
+    ...alias,
+    ...newAlias,
+  };
+
+  console.log(config.resolve.alias);
+};
+
 const addResolvePlugin = (config, plugin) => {
   config.resolve.plugins
     ? config.resolve.plugins.push(plugin)
@@ -26,6 +36,7 @@ const removeStylesFromRules = (config) => {
 };
 
 module.exports = {
+  addResolveAlias,
   addResolvePlugin,
   addModuleRule,
   removeStylesFromRules,
