@@ -4,6 +4,10 @@
 
 - check how the Next.js works with Nx
 
+- define shared components and use on the applications
+
+- define shared assets (also webfonts) to use on the applications
+
 ## Documentation
 
 - [Nx](docs/nx.md)
@@ -16,13 +20,13 @@
 
 - [Project creation commands (steps)](docs/project-creation-commands.md)
 
-<!--
-
 ## Project dependency graph
 
-define
+![nx dep-graph](docs/assets/nx_dep-graph.png)
 
 > **implicit** - means some sort of manual configuration
+
+<!--
 
 ## Findings
 
