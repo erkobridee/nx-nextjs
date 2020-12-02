@@ -8,6 +8,8 @@
 
 - define shared assets (also webfonts) to use on the applications
 
+- load the webfont added to the nx workspace and define to use it on the root `tailwind.config.js`
+
 ## Documentation
 
 - [Nx](docs/nx.md)
