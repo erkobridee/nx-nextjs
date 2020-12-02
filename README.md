@@ -4,6 +4,12 @@
 
 - check how the Next.js works with Nx
 
+- define shared components and use on the applications
+
+- define shared assets (also webfonts) to use on the applications
+
+- load the webfont added to the nx workspace and define to use it on the root `tailwind.config.js`
+
 ## Documentation
 
 - [Nx](docs/nx.md)
@@ -16,19 +22,87 @@
 
 - [Project creation commands (steps)](docs/project-creation-commands.md)
 
-<!--
-
 ## Project dependency graph
 
-define
+![nx dep-graph](docs/assets/nx_dep-graph.png)
 
 > **implicit** - means some sort of manual configuration
 
 ## Findings
 
-define
+- it was possible to use the [TailwindCSS](https://tailwindcss.com/) with [SASS](https://sass-lang.com/) inside of the nx workspace
 
--->
+  - [Sass: LibSass is Deprecated](https://sass-lang.com/blog/libsass-is-deprecated) - [sass package | npm](https://www.npmjs.com/package/sass)
+
+  - the `TailwindCSS` support is handled through the [Postcss](https://postcss.org/) supported by the nx workspace
+
+  - it was possible to have Tailwind configuration per application extending the `tailwind.config.js` from the root
+
+- it was possible use the [Next.js](https://nextjs.org/) v10 though the [Nx Next.js Plugin](https://nx.dev/latest/react/plugins/next/overview)
+
+  - the Next.js files when we run the development mode, they were place on the `dists/apps/{app name}/`
+
+    - when we run the build it updates the same folder
+
+    - when we run the export to get the static version, that's generates a inner folder `/exported`
+
+## CLI Commands
+
+- cleanup cache and dist: `npm run clean`
+
+### app - [nx react plugin](https://nx.dev/latest/react/plugins/react/overview)
+
+- development: `nx serve app`
+
+- build: `nx build app`
+
+  - with the flag `--prod` that will do the optimizations for production
+
+  - with the `NODE_ENV=production` that will trigger the Tailwind css purge
+
+- test builded: `npx serve dist/apps/app`
+
+- lint: `nx lint app`
+
+- jsUnit tests: `nx test app`
+
+- e2e tests: `nx e2e app-e2e`
+
+### nextjs - [nx next.js plugin](https://nx.dev/latest/react/plugins/next/overview)
+
+- development: `nx serve nextjs`
+
+- build: `nx build nextjs`
+
+  - with the `NODE_ENV=production` that will trigger the Tailwind css purge
+
+  - in case of deployment with the server side support from the Next.js, you need to the the current content from the folder `dist/apps/nextjs`
+
+- test builded: `nx serve nextjs --prod`
+
+  - this will work only after run the build
+
+- test exported: `npx serve dist/apps/nextjs/exported`
+
+- lint: `nx lint nextjs`
+
+- jsUnit tests: `nx test nextjs`
+
+- e2e tests: `nx e2e nextjs-e2e`
+
+### shared-components - storybook - [nx storybook plugin](https://nx.dev/latest/react/plugins/storybook/overview)
+
+- storybook: `nx storybook shared-components`
+
+- build: `nx build-storybook shared-components`
+
+  - with the `NODE_ENV=production` that will trigger the Tailwind css purge
+
+- test builded: `npx serve dist/storybook/shared-components`
+
+- lint: `nx lint shared-components`
+
+- jsUnit tests: `nx test shared-components`
 
 ## Links
 
@@ -61,6 +135,8 @@ define
   - [[YouTube] Nx: Extensible Dev Tools for Monorepos (React)](https://www.youtube.com/watch?v=E188J7E_MDU)
 
   - [[YouTube] Nx Tutorial: High Quality React apps with Nx, Storybook & Cypress](https://www.youtube.com/watch?v=mfJBLhjYMdo)
+
+  - [Scale React Development with Nx | Egghead.io](https://egghead.io/playlists/scale-react-development-with-nx-4038)
 
   - [Nx Now Supports Next.js | Nrwl](https://blog.nrwl.io/nx-now-supports-next-js-84ae3d0b2aed) - 2019/09/11
 

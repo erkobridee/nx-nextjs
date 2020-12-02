@@ -100,3 +100,21 @@ npm i -D @nrwl/storybook
 
 nx g @nrwl/react:storybook-configuration shared-components
 ```
+
+15. create a shared assets lib
+
+```
+nx g @nrwl/workspace:lib assets --directory=shared
+```
+
+useful reference: [[YouTube] 9. Shared assets library and nx.json - Nx Workspaces Course, by Nrwl](https://youtu.be/LYjX2V-eQa8), the code of the example is available on the [[GitHub] nrwl/board-game-hoard](https://github.com/nrwl/board-game-hoard)
+
+after define the code and the libs code structure
+
+- update the `tsconfig.json` to expose the full content of the lib
+- update the lib configuration on the `workspace.json`
+- install the node development dependency: `fs-extra`
+- update the apps to use the shared assets lib content
+  - the imported images
+  - map the styles to load from the lib
+- define a plugin to config the nextjs application to interact with nx and other needed resources like the shared assets lib

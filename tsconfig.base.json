@@ -16,6 +16,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-nextjs/shared/assets/*": ["libs/shared/assets/*"],
       "@nx-nextjs/shared/components": ["libs/shared/components/src/index.ts"]
     }
   },

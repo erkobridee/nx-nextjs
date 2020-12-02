@@ -2,10 +2,8 @@ import React from 'react';
 
 import { TargetBlankLink } from '@nx-nextjs/shared/components';
 
-import './app.scss';
-
-import { ReactComponent as Logo } from './logo.svg';
-import star from './star.svg';
+import { ReactComponent as Logo } from '@nx-nextjs/shared/assets/images/nx-logo-white.svg';
+import star from '@nx-nextjs/shared/assets/images/star.svg';
 
 export function App() {
   /*
@@ -17,11 +15,13 @@ export function App() {
     <div className="app">
       <header className="flex">
         <Logo width="75" height="75" />
-        <h1>Welcome to app!</h1>
+        <h1 className="font-open-sans text-green-500">Welcome to app!</h1>
       </header>
       <main>
         <h2>Resources &amp; Tools</h2>
-        <p>Thank you for using and showing some ♥ for Nx.</p>
+        <p className="font-open-sans italic">
+          Thank you for using and showing some ♥ for Nx.
+        </p>
         <div className="flex github-star-container">
           <TargetBlankLink href="https://github.com/nrwl/nx">
             {' '}
@@ -32,7 +32,9 @@ export function App() {
             </div>
           </TargetBlankLink>
         </div>
-        <p>Here are some links to help you get started.</p>
+        <p className="font-open-sans font-thin">
+          Here are some links to help you get started.
+        </p>
         <ul className="resources">
           <li className="col-span-2">
             <a
@@ -81,7 +83,9 @@ export function App() {
           </li>
         </ul>
         <h2>Next Steps</h2>
-        <p>Here are some things you can do with Nx.</p>
+        <p className="font-open-sans font-thin">
+          Here are some things you can do with Nx.
+        </p>
         <details open>
           <summary>Add UI library</summary>
           <pre>{`# Generate UI lib

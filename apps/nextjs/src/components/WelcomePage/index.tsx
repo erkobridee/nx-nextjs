@@ -5,21 +5,27 @@ import { TargetBlankLink } from '@nx-nextjs/shared/components';
 
 import styles from './index.module.scss';
 
+import star from '@nx-nextjs/shared/assets/images/star.svg';
+
 export const WelcomePage = () => (
   <div className={styles.page}>
     <h2>Resources &amp; Tools</h2>
-    <p>Thank you for using and showing some ♥ for Nx.</p>
+    <p className="font-open-sans italic">
+      Thank you for using and showing some ♥ for Nx.
+    </p>
     <div className="flex github-star-container">
       <TargetBlankLink href="https://github.com/nrwl/nx">
         {' '}
         If you like Nx, please give it a star:
         <div className="github-star-badge">
-          <img src="/star.svg" className="material-icons" alt="" />
+          <img src={star} className="material-icons" alt="" />
           Star
         </div>
       </TargetBlankLink>
     </div>
-    <p>Here are some links to help you get started.</p>
+    <p className="font-open-sans font-thin">
+      Here are some links to help you get started.
+    </p>
     <ul className="resources">
       <li className="col-span-2">
         <a
@@ -57,7 +63,9 @@ export const WelcomePage = () => (
       </li>
     </ul>
     <h2>Next Steps</h2>
-    <p>Here are some things you can do with Nx.</p>
+    <p className="font-open-sans font-thin">
+      Here are some things you can do with Nx.
+    </p>
     <details open>
       <summary>Add UI library</summary>
       <pre>{`# Generate UI lib

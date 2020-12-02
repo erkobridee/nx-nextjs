@@ -1,0 +1,95 @@
+/*
+  fonts from the github repository
+  https://github.com/FontFaceKit/open-sans
+*/
+
+$PrefixPath: '@nx-nextjs/shared/assets/fonts/OpenSans/';
+$OpenSansVersion: '1.101';
+
+@mixin fontdef($FontType: 'Regular') {
+  font-family: 'Open Sans';
+  src: url('#{$PrefixPath}/#{$FontType}/OpenSans-#{$FontType}.woff2?v=#{$OpenSansVersion}')
+      format('woff2'),
+    url('#{$PrefixPath}/#{$FontType}/OpenSans-#{$FontType}.woff?v=#{$OpenSansVersion}')
+      format('woff');
+}
+
+/* BEGIN Light */
+@font-face {
+  @include fontdef('Light');
+  font-weight: 300;
+  font-style: normal;
+}
+/* END Light */
+
+/* BEGIN Light Italic */
+@font-face {
+  @include fontdef('LightItalic');
+  font-weight: 300;
+  font-style: italic;
+}
+/* END Light Italic */
+
+/* BEGIN Regular */
+@font-face {
+  @include fontdef();
+  font-weight: normal;
+  font-style: normal;
+}
+/* END Regular */
+
+/* BEGIN Italic */
+@font-face {
+  @include fontdef('Italic');
+  font-weight: normal;
+  font-style: italic;
+}
+/* END Italic */
+
+/* BEGIN Semibold */
+@font-face {
+  @include fontdef('SemiBold');
+  font-weight: 600;
+  font-style: normal;
+}
+/* END Semibold */
+
+/* BEGIN Semibold Italic */
+@font-face {
+  @include fontdef('SemiBoldItalic');
+  font-weight: 600;
+  font-style: italic;
+}
+/* END Semibold Italic */
+
+/* BEGIN Bold */
+@font-face {
+  @include fontdef('Bold');
+  font-weight: bold;
+  font-style: normal;
+}
+/* END Bold */
+
+/* BEGIN Bold Italic */
+@font-face {
+  @include fontdef('BoldItalic');
+  font-weight: bold;
+  font-style: italic;
+}
+/* END Bold Italic */
+
+/* BEGIN Extrabold */
+@font-face {
+  @include fontdef('ExtraBold');
+  font-weight: 800;
+  font-style: normal;
+}
+/* END Extrabold */
+
+/* BEGIN Extrabold Italic */
+@font-face {
+  @include fontdef('ExtraBoldItalic');
+  font-weight: 800;
+  font-style: italic;
+}
+/* END Extrabold Italic */

@@ -15,10 +15,27 @@
             "main": "apps/app/src/main.tsx",
             "polyfills": "apps/app/src/polyfills.ts",
             "tsConfig": "apps/app/tsconfig.app.json",
-            "assets": ["apps/app/src/favicon.ico", "apps/app/src/assets"],
-            "styles": ["apps/app/src/styles.scss"],
+            "assets": [
+              "apps/app/src/assets",
+              {
+                "input": "libs/shared/assets",
+                "glob": "*.ico",
+                "output": "."
+              },
+              {
+                "input": "libs/shared/assets/images",
+                "glob": "**/*",
+                "output": "assets/images"
+              }
+            ],
+            "styles": [
+              "libs/shared/assets/styles/fonts.scss",
+              "libs/shared/assets/styles/tailwind.scss",
+              "libs/shared/assets/styles/global.scss",
+              "apps/app/src/styles.scss"
+            ],
             "scripts": [],
-            "webpackConfig": "@nrwl/react/plugins/webpack"
+            "webpackConfig": "tools/plugins/react-webpack"
           },
           "configurations": {
             "production": {
@@ -249,6 +266,11 @@
           }
         }
       }
+    },
+    "shared-assets": {
+      "root": "libs/shared/assets",
+      "sourceRoot": "libs/shared/assets",
+      "projectType": "library"
     }
   },
   "cli": {

@@ -46,4 +46,12 @@ define
 
   - [Nested dynamic layouts in Next.js apps | React Tricks](https://reacttricks.com/nested-dynamic-layouts-in-next-apps/) - [youtube](https://www.youtube.com/watch?v=69-mnojSa0M) | [github](https://github.com/kheruc/rt-nested-layouts)
 
+  - [Next.js style with Sass — SCSS & Fonts - by Melih Yumak | Quick Code | Medium](https://medium.com/quick-code/next-js-style-with-sass-scss-fonts-54e9cef70377)
+
+    - [[npm] next-fonts](https://www.npmjs.com/package/next-fonts) - add extra fonts support
+
   - [[GitHub] erkobridee/nextjs-ssg-hello](https://github.com/erkobridee/nextjs-ssg-hello) - first contact with nextjs and the static site generation support
+
+- [Using web fonts with SASS and Webpack | DEV](https://dev.to/varya/using-web-fonts-with-sass-and-webpack-51m4)
+
+- [Adding Google Fonts to Your Next.js App | johnny.am](https://johnny.am/blog/n2-adding-google-fonts-to-nextjs-project)
