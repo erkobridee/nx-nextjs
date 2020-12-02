@@ -5,3 +5,4 @@
 **/.storybook
 
 **/webpack.config.js
+**/tailwind.config.js
