@@ -7,7 +7,7 @@ import styles from './index.module.scss';
 
 import star from '@nx-nextjs/shared/assets/images/star.svg';
 
-export const WelcomePage = () => (
+export const IndexPage = () => (
   <div className={styles.page}>
     <h2>Resources &amp; Tools</h2>
     <p className="font-open-sans italic">
@@ -93,4 +93,4 @@ nx affected:e2e
   </div>
 );
 
-export default WelcomePage;
+export default IndexPage;

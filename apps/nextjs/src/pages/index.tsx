@@ -1,8 +1,8 @@
 // it's not needed with React v17
 // import React from 'react';
 
-import WelcomePage from '../components/WelcomePage';
+import IndexPage from '../components/pages/index';
 
-export const Index = () => <WelcomePage />;
+export const Index = () => <IndexPage />;
 
 export default Index;

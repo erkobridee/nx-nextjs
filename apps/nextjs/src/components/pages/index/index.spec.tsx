@@ -3,11 +3,11 @@
 
 import { render } from '@testing-library/react';
 
-import WelcomePage from './index';
+import IndexPage from './index';
 
-describe('WelcomePage', () => {
+describe('IndexPage', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<WelcomePage />);
+    const { baseElement } = render(<IndexPage />);
     expect(baseElement).toBeTruthy();
   });
 });
