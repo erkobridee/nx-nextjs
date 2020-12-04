@@ -35,7 +35,7 @@
               "apps/app/src/styles.scss"
             ],
             "scripts": [],
-            "webpackConfig": "tools/plugins/react-webpack"
+            "webpackConfig": "tools/config/webpack/nx-react"
           },
           "configurations": {
             "production": {

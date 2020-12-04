@@ -1,7 +1,10 @@
-const definitions = require('./definitions');
-const utils = require('./utils');
+const reactWebpackConfig = require('@nrwl/react/plugins/webpack');
+
+const { definitions, utils } = require('./helpers');
 
 module.exports = (config) => {
+  config = reactWebpackConfig(config);
+
   rulesWithoutStyles = utils.removeStylesFromRules(config);
 
   config.module.rules = [

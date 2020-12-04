@@ -1,3 +1,5 @@
+const withNx = require('@nrwl/next/plugins/with-nx');
+
 /*
   the next nx plugin uses it
   https://github.com/nrwl/nx/blob/98ed4b1dc7579680e9d4bf63274375d2d25216dc/packages/next/plugins/with-nx.ts#L2
@@ -7,12 +9,16 @@
 */
 const { appRootPath } = require('@nrwl/workspace/src/utils/app-root');
 
-const baseWebpackToolsPath = `${appRootPath}/tools/webpack`;
-const definitions = require(`${baseWebpackToolsPath}/definitions`);
-const utils = require(`${baseWebpackToolsPath}/utils`);
+const {
+  definitions,
+  utils,
+} = require(`${appRootPath}/tools/config/webpack/helpers`);
 
 module.exports = (nextConfig = {}) => {
+  nextConfig = withNx(nextConfig);
+
   const userWebpack = nextConfig.webpack || ((x) => x);
+
   return {
     ...nextConfig,
     webpack: (config, options) => {

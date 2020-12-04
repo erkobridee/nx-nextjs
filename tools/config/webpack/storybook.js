@@ -1,5 +1,4 @@
-const definitions = require('./definitions');
-const utils = require('./utils');
+const { definitions, utils } = require('./helpers');
 
 module.exports = (config) => {
   utils.addResolvePlugin(config, definitions.tsPaths);

@@ -1,5 +1,5 @@
 const { appRootPath } = require('@nrwl/workspace/src/utils/app-root');
-const configStorybook = require(`${appRootPath}/tools/webpack/config-storybook`);
+const configStorybook = require(`${appRootPath}/tools/config/webpack/storybook`);
 
 /**
  * Export a function. Accept the base config as the only param.
