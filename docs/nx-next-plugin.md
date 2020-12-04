@@ -52,6 +52,8 @@ define
 
   - [[GitHub] erkobridee/nextjs-ssg-hello](https://github.com/erkobridee/nextjs-ssg-hello) - first contact with nextjs and the static site generation support
 
+  - [[GitHub] ghoshnirmalya/nirmalyaghosh.com](https://github.com/ghoshnirmalya/nirmalyaghosh.com) - Personal portfolio built using Next.js, Chakra UI, SEO, MDX and TypeScript.
+
 - [Using web fonts with SASS and Webpack | DEV](https://dev.to/varya/using-web-fonts-with-sass-and-webpack-51m4)
 
 - [Adding Google Fonts to Your Next.js App | johnny.am](https://johnny.am/blog/n2-adding-google-fonts-to-nextjs-project)
