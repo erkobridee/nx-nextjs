@@ -36,6 +36,8 @@
 
 - [postcss-loader | webpack](https://webpack.js.org/loaders/postcss-loader/)
 
+  - [PostCSS 8 for end users](https://github.com/postcss/postcss/wiki/PostCSS-8-for-end-users) - Update postcss-loader to >= 4.0.3.
+
 - [Webpack with PostCSS | E.Y.](https://elfi-y.medium.com/webpack-with-postcss-cc022268aea7) - 2020/09/28
 
 - [How to PostCSS with Webpack 5 - Setup Tutorial | rw;eruch](https://www.robinwieruch.de/webpack-postcss) - 2020/10/30
