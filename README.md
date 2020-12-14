@@ -82,6 +82,10 @@
 
   - this will work only after run the build
 
+- export: `nx export nextjs`
+
+  - with the `NODE_ENV=production` that will trigger the Tailwind css purge
+
 - test exported: `npx serve dist/apps/nextjs/exported`
 
 - lint: `nx lint nextjs`
