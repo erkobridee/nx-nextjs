@@ -1,0 +1,43 @@
+{
+  "migrations": [
+    {
+      "cli": "nx",
+      "version": "11.6.0-beta.0",
+      "description": "Add js patterns to tsconfig.json",
+      "factory": "./src/migrations/update-11-6-0/add-js-include-11-6-0",
+      "package": "@nrwl/next",
+      "name": "add-js-include-11.6.0"
+    },
+    {
+      "cli": "nx",
+      "version": "12.0.0-beta.0",
+      "description": "Migrate tsconfig.json to allow new jsx transform to be used. Removes the need for `import React from 'react'`",
+      "factory": "./src/migrations/update-12-0-0/use-react-jsx-in-tsconfig",
+      "package": "@nrwl/react",
+      "name": "use-react-jsx-in-tsconfig-12.0.0"
+    },
+    {
+      "cli": "nx",
+      "version": "12.0.0-beta.0",
+      "description": "Update workspace to use `@emotion/babel-plugin` instead of `@emotion/babel-preset-css-prop` to support new jsx transform",
+      "factory": "./src/migrations/update-12-0-0/update-emotion-setup",
+      "package": "@nrwl/react",
+      "name": "update-emotion-setup-12.0.0"
+    },
+    {
+      "cli": "nx",
+      "version": "12.0.0-beta.0",
+      "description": "Remove @types/react-redux from package.json since react-redux installs the package automatically now",
+      "factory": "./src/migrations/update-12-0-0/remove-react-redux-types-package",
+      "package": "@nrwl/react",
+      "name": "remove-react-redux-types-package-12.0.0"
+    },
+    {
+      "version": "11.5.3-beta.1",
+      "description": "Update react storybook lint config",
+      "factory": "./src/migrations/update-11-5-3/update-lint-ignores",
+      "package": "@nrwl/storybook",
+      "name": "update-11-5-3"
+    }
+  ]
+}
