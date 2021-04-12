@@ -3,7 +3,7 @@
   https://github.com/FontFaceKit/open-sans
 */
 
-$PrefixPath: '@nx-nextjs/shared/assets/fonts/OpenSans/';
+$PrefixPath: '@nx-nextjs/shared/assets/fonts/OpenSans';
 $OpenSansVersion: '1.101';
 
 @mixin fontdef($FontType: 'Regular') {

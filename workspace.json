@@ -76,7 +76,9 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/app/**/*.{ts,tsx,js,jsx}"]
+            "lintFilePatterns": [
+              "apps/app/**/*.{ts,tsx,js,jsx}"
+            ]
           }
         },
         "test": {
@@ -109,7 +111,9 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/app-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": [
+              "apps/app-e2e/**/*.{js,ts}"
+            ]
           }
         }
       }
@@ -123,7 +127,9 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["libs/shared/components/**/*.{ts,tsx,js,jsx}"]
+            "lintFilePatterns": [
+              "libs/shared/components/**/*.{ts,tsx,js,jsx}"
+            ]
           }
         },
         "test": {
@@ -203,7 +209,9 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/nextjs/**/*.{ts,tsx}"]
+            "lintFilePatterns": [
+              "apps/nextjs/**/*.{ts,tsx}"
+            ]
           }
         },
         "test": {
@@ -236,7 +244,9 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/nextjs-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": [
+              "apps/nextjs-e2e/**/*.{js,ts}"
+            ]
           }
         }
       }
@@ -262,7 +272,9 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/shared-components-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": [
+              "apps/shared-components-e2e/**/*.{js,ts}"
+            ]
           }
         }
       }
@@ -270,7 +282,9 @@
     "shared-assets": {
       "root": "libs/shared/assets",
       "sourceRoot": "libs/shared/assets",
-      "projectType": "library"
+      "projectType": "library",
+      "schematics": {},
+      "architect": {}
     }
   },
   "cli": {
