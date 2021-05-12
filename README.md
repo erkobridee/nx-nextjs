@@ -1,11 +1,5 @@
 # NxNextjs
 
-> right now it's not possible to run this project with the next.js v10.2.0
->
-> extra information about the case:
->
-> [[GitHub] nrwl/nx/issues/5492](https://github.com/nrwl/nx/issues/5492) - Nextjs 10.2v support
-
 ## Goal
 
 - check how the Next.js works with Nx
