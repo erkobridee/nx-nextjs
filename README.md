@@ -164,6 +164,8 @@ This project was generated using [Nx](https://nx.dev/) ([v12.3.6](https://github
 
     - [Improved Next.js support, auto-populated publishable library dependencies, and more in Nx 9.3! | Nrwl](https://blog.nrwl.io/improved-next-js-support-auto-populated-publishable-library-dependencies-and-more-in-nx-9-3-c7dc967dc065) - 2020/05/14
 
+    - [Create a Next.js web app with Nx | Nrwl Blog](https://blog.nrwl.io/create-a-next-js-web-app-with-nx-bcf2ab54613) - 2021/06/10
+
   - [Storybook](https://storybook.js.org/)
 
     - [[YouTube] Nx Tutorial: Nx Storybook Integration](https://www.youtube.com/watch?v=sFpqyjT7u4s)
