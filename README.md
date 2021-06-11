@@ -166,6 +166,8 @@ This project was generated using [Nx](https://nx.dev/) ([v12.3.6](https://github
 
     - [Create a Next.js web app with Nx | Nrwl Blog](https://blog.nrwl.io/create-a-next-js-web-app-with-nx-bcf2ab54613) - 2021/06/10
 
+      - [[GitHub] juristr/blog-series-nextjs-nx](https://github.com/juristr/blog-series-nextjs-nx)
+
   - [Storybook](https://storybook.js.org/)
 
     - [[YouTube] Nx Tutorial: Nx Storybook Integration](https://www.youtube.com/watch?v=sFpqyjT7u4s)
