@@ -168,6 +168,10 @@ This project was generated using [Nx](https://nx.dev/) ([v12.3.6](https://github
 
       - [[GitHub] juristr/blog-series-nextjs-nx](https://github.com/juristr/blog-series-nextjs-nx)
 
+    - [Setup Next.js to use Tailwind with Nx | Nrwl Blog](https://blog.nrwl.io/setup-next-js-to-use-tailwind-with-nx-849b7e21d8d0)
+
+      - [[GitHub] juristr/blog-series-nextjs-nx - branch: 02-setup-tailwind](https://github.com/juristr/blog-series-nextjs-nx/tree/02-setup-tailwind)
+
   - [Storybook](https://storybook.js.org/)
 
     - [[YouTube] Nx Tutorial: Nx Storybook Integration](https://www.youtube.com/watch?v=sFpqyjT7u4s)
