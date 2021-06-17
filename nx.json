@@ -43,15 +43,15 @@
       "tags": [],
       "implicitDependencies": ["nextjs"]
     },
+    "shared-assets": {
+      "tags": []
+    },
     "shared-components": {
       "tags": []
     },
     "shared-components-e2e": {
       "tags": [],
       "implicitDependencies": ["shared-components"]
-    },
-    "shared-assets": {
-      "tags": []
     }
   }
 }
