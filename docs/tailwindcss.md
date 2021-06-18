@@ -1,8 +1,10 @@
 [⬅️&nbsp;&nbsp;README](../README.md)
 
-# Tailwindcss
+# Tailwind CSS
 
-- [Tailwindcss](https://tailwindcss.com/)
+> [release v2.2](https://github.com/tailwindlabs/tailwindcss/releases/tag/v2.2.0) | [blog post](https://blog.tailwindcss.com/tailwindcss-2-2)
+
+- [Tailwind CSS](https://tailwindcss.com/)
 
   - [installation](https://tailwindcss.com/docs/installation) - `Error: PostCSS plugin tailwindcss requires PostCSS 8.`
 
