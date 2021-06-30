@@ -1,4 +1,4 @@
-const { appRootPath } = require('@nrwl/workspace/src/utils/app-root');
+const { appRootPath } = require('@nrwl/tao/src/utils/app-root');
 
 const {
   PURGE_MATCH_FILES,

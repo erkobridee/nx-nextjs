@@ -1,14 +1,16 @@
 import React from 'react';
+import type { Story, Meta } from '@storybook/react';
+
 import { SharedComponents, SharedComponentsProps } from './index';
 
 export default {
   component: SharedComponents,
   title: 'Shared/Components',
-};
+} as Meta;
 
-export const Welcome = () => {
-  /* eslint-disable-next-line */
-  const props: SharedComponentsProps = {};
+const Template: Story<SharedComponentsProps> = (args) => (
+  <SharedComponents {...args} />
+);
 
-  return <SharedComponents />;
-};
+export const Welcome = Template.bind({});
+Welcome.args = {};

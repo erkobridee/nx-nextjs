@@ -5,7 +5,7 @@
   source code
   https://github.com/nrwl/nx/blob/98ed4b1dc7579680e9d4bf63274375d2d25216dc/packages/workspace/src/utils/app-root.ts
 */
-const { appRootPath } = require('@nrwl/workspace/src/utils/app-root');
+const { appRootPath } = require('@nrwl/tao/src/utils/app-root');
 
 const reactWebpackConfig = require('@nrwl/react/plugins/webpack');
 
