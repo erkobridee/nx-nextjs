@@ -53,5 +53,13 @@
       "tags": [],
       "implicitDependencies": ["shared-components"]
     }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
   }
 }
