@@ -1,0 +1,28 @@
+{
+  "migrations": [
+    {
+      "version": "12.5.0-beta.1",
+      "description": "Rename the workspace-schematic script into workspace-generator script",
+      "factory": "./src/migrations/update-12-5-0/add-target-dependencies",
+      "cli": "nx",
+      "package": "@nrwl/workspace",
+      "name": "add-target-dependencies"
+    },
+    {
+      "version": "12.5.0-beta.5",
+      "cli": "nx",
+      "description": "Upgrade Storybook to v6.3",
+      "factory": "./src/migrations/update-12-5-0/migrate-storybook-6-3",
+      "package": "@nrwl/storybook",
+      "name": "update-12-5-0"
+    },
+    {
+      "version": "12.5.0-beta.5",
+      "cli": "nx",
+      "description": "Install the @storybook/addon-essentials package",
+      "factory": "./src/migrations/update-12-5-0/install-addon-essentials",
+      "package": "@nrwl/storybook",
+      "name": "install-addon-essentials"
+    }
+  ]
+}
