@@ -6,7 +6,15 @@ const tsPaths = new TsconfigPathsPlugin({
 
 const stylesWithPostcssRule = {
   test: /\.s?(a|c)ss$/,
-  use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+  use: [
+    'style-loader',
+    'css-loader',
+    {
+      loader: 'postcss-loader',
+      options: { implementation: require('postcss') },
+    },
+    'sass-loader',
+  ],
 };
 
 const WEBFONTS_REGEX = /\.(woff(2)?|eot|ttf|otf)(\?v=\d+(\.\d+(\.\d+)?)?)?$/;

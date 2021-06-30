@@ -1,4 +1,4 @@
-const { appRootPath } = require('@nrwl/workspace/src/utils/app-root');
+const { appRootPath } = require('@nrwl/tao/src/utils/app-root');
 const configStorybook = require(`${appRootPath}/tools/config/webpack/storybook`);
 
 /**
