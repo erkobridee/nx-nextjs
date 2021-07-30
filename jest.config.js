@@ -1,7 +1,3 @@
-module.exports = {
-  projects: [
-    '<rootDir>/apps/app',
-    '<rootDir>/apps/nextjs',
-    '<rootDir>/libs/shared/components',
-  ],
-};
+const { getJestProjects } = require('@nrwl/jest');
+
+module.exports = { projects: getJestProjects() };
