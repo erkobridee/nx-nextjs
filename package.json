@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "postinstall": "is-ci || npx husky install",
+    "prettify": "prettier --write .",
+    "check:lint": "npx nx run-many --target=lint --all",
+    "check": "run-s prettify check:lint",
     "nx": "nx",
     "start": "nx serve",
     "build": "nx build",
@@ -27,7 +31,16 @@
     "clean:dist": "rimraf dist",
     "clean:tmp": "rimraf tmp",
     "clean:cache": "rimraf node_modules/.cache",
-    "clean": "npm-run-all -p clean:dist clean:tmp clean:cache"
+    "clean": "run-p clean:dist clean:tmp clean:cache"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,md,html,css,scss}": "prettier --write",
+    "**/*.{js,jsx,ts,tsx}": "eslint --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "private": true,
   "dependencies": {
@@ -79,8 +92,11 @@
     "eslint-plugin-react": "7.23.1",
     "eslint-plugin-react-hooks": "4.2.0",
     "fs-extra": "^9.0.1",
+    "husky": "^7.0.1",
+    "is-ci": "^3.0.0",
     "jest": "27.0.3",
-    "npm-run-all": "^4.1.5",
+    "lint-staged": "^11.1.1",
+    "npm-run-all2": "^5.0.2",
     "postcss": "^8.1.10",
     "postcss-import": "^13.0.0",
     "postcss-loader": "^4.1.0",
