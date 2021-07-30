@@ -103,7 +103,7 @@
     "prettier": "2.3.2",
     "rimraf": "^3.0.2",
     "sass": "^1.29.0",
-    "tailwindcss": "^2.2.0",
+    "tailwindcss": "^2.2.7",
     "ts-jest": "27.0.3",
     "ts-node": "9.1.1",
     "tslib": "^2.1.0",
