@@ -1,0 +1,28 @@
+{
+  "migrations": [
+    {
+      "cli": "nx",
+      "version": "12.8.0-beta.0",
+      "description": "Remove Typescript Preprocessor Plugin",
+      "factory": "./src/migrations/update-12-8-0/remove-typescript-plugin",
+      "package": "@nrwl/cypress",
+      "name": "remove-typescript-plugin"
+    },
+    {
+      "cli": "nx",
+      "version": "12.8.0-beta.11",
+      "description": "Adjust the Next.js lib babel configuration for styled-jsx",
+      "factory": "./src/migrations/update-12-8-0/remove-styled-jsx-babel-plugin",
+      "package": "@nrwl/next",
+      "name": "fix-nextjs-lib-babel-config-12.8.0"
+    },
+    {
+      "version": "12.8.0-beta.11",
+      "cli": "nx",
+      "description": "Adjust Storybook tsconfig to add styled-jsx typings",
+      "factory": "./src/migrations/update-12-8-0/update-storybook-styled-jsx-typings",
+      "package": "@nrwl/storybook",
+      "name": "update-12-8.0"
+    }
+  ]
+}
