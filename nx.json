@@ -28,32 +28,6 @@
       }
     }
   },
-  "projects": {
-    "app": {
-      "tags": []
-    },
-    "app-e2e": {
-      "tags": [],
-      "implicitDependencies": ["app"]
-    },
-    "nextjs": {
-      "tags": []
-    },
-    "nextjs-e2e": {
-      "tags": [],
-      "implicitDependencies": ["nextjs"]
-    },
-    "shared-assets": {
-      "tags": []
-    },
-    "shared-components": {
-      "tags": []
-    },
-    "shared-components-e2e": {
-      "tags": [],
-      "implicitDependencies": ["shared-components"]
-    }
-  },
   "targetDependencies": {
     "build": [
       {
@@ -61,5 +35,31 @@
         "projects": "dependencies"
       }
     ]
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/react"
+  },
+  "defaultProject": "app",
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "style": "scss",
+        "linter": "eslint",
+        "babel": true
+      },
+      "component": {
+        "style": "scss"
+      },
+      "library": {
+        "style": "scss",
+        "linter": "eslint"
+      }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "scss",
+        "linter": "eslint"
+      }
+    }
   }
 }

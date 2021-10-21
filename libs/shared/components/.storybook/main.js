@@ -10,6 +10,7 @@ module.exports = {
 
   addons: [...rootAddons],
 
+  core: { ...rootMain.core, builder: 'webpack5' },
   stories: [
     ...rootStories,
     '../src/lib/**/*.stories.mdx',
