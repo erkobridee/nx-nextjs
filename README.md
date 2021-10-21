@@ -22,6 +22,8 @@ This project was generated using [Nx](https://nx.dev/) ([v12.9.0](https://github
 
   - [Nx Storybook Plugin](docs/nx-storybook-plugin.md)
 
+  - [Using Tailwind CSS in React | Nx React Guide](https://nx.dev/l/r/guides/using-tailwind-css-in-react)
+
 - [TailwindCSS](docs/tailwindcss.md)
 
 - [Project creation commands (steps)](docs/project-creation-commands.md)
@@ -139,6 +141,8 @@ This project was generated using [Nx](https://nx.dev/) ([v12.9.0](https://github
 - [Nx: Extensible Dev Tools for Monorepos (React)](https://nx.dev/react)
 
   - [Plugins | Nx Docs](https://nx.dev/react/plugins/overview)
+
+  - [Core Performance Improvements, Webpack 5, React Native, and more in Nx 13! | Nrwl](https://blog.nrwl.io/core-performance-improvements-webpack-5-react-native-and-more-in-nx-13-cfe63c7415f1) - 2021/10/20
 
   - [[YouTube] Nx: Extensible Dev Tools for Monorepos (React)](https://www.youtube.com/watch?v=E188J7E_MDU)
 
