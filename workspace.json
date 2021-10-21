@@ -86,7 +86,8 @@
             "passWithNoTests": true
           }
         }
-      }
+      },
+      "tags": []
     },
     "app-e2e": {
       "root": "apps/app-e2e",
@@ -112,7 +113,9 @@
             "lintFilePatterns": ["apps/app-e2e/**/*.{js,ts}"]
           }
         }
-      }
+      },
+      "tags": [],
+      "implicitDependencies": ["app"]
     },
     "nextjs": {
       "root": "apps/nextjs",
@@ -162,7 +165,8 @@
             "passWithNoTests": true
           }
         }
-      }
+      },
+      "tags": []
     },
     "nextjs-e2e": {
       "root": "apps/nextjs-e2e",
@@ -188,14 +192,17 @@
             "lintFilePatterns": ["apps/nextjs-e2e/**/*.{js,ts}"]
           }
         }
-      }
+      },
+      "tags": [],
+      "implicitDependencies": ["nextjs"]
     },
     "shared-assets": {
       "root": "libs/shared/assets",
       "sourceRoot": "libs/shared/assets",
       "projectType": "library",
       "schematics": {},
-      "architect": {}
+      "architect": {},
+      "tags": []
     },
     "shared-components": {
       "root": "libs/shared/components",
@@ -246,7 +253,8 @@
             }
           }
         }
-      }
+      },
+      "tags": []
     },
     "shared-components-e2e": {
       "root": "apps/shared-components-e2e",
@@ -272,33 +280,9 @@
             "lintFilePatterns": ["apps/shared-components-e2e/**/*.{js,ts}"]
           }
         }
-      }
-    }
-  },
-  "cli": {
-    "defaultCollection": "@nrwl/react"
-  },
-  "schematics": {
-    "@nrwl/react": {
-      "application": {
-        "style": "scss",
-        "linter": "eslint",
-        "babel": true
       },
-      "component": {
-        "style": "scss"
-      },
-      "library": {
-        "style": "scss",
-        "linter": "eslint"
-      }
-    },
-    "@nrwl/next": {
-      "application": {
-        "style": "scss",
-        "linter": "eslint"
-      }
+      "tags": [],
+      "implicitDependencies": ["shared-components"]
     }
-  },
-  "defaultProject": "app"
+  }
 }
