@@ -47,7 +47,7 @@ module.exports = {
           // If coming from JS/TS file, then transform into React component using SVGR.
           {
             issuer: {
-              test: /\.[jt]sx?$/,
+              and: [/\.[jt]sx?$/],
             },
             use: [
               '@svgr/webpack?-svgo,+titleProp,+ref![path]',
