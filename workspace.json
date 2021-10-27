@@ -85,6 +85,13 @@
             "jestConfig": "apps/app/jest.config.js",
             "passWithNoTests": true
           }
+        },
+        "ts-check": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "cwd": "apps/app",
+            "command": "npx tsc --noEmit --project tsconfig.app.json"
+          }
         }
       },
       "tags": []
@@ -163,6 +170,13 @@
           "options": {
             "jestConfig": "apps/nextjs/jest.config.js",
             "passWithNoTests": true
+          }
+        },
+        "ts-check": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "cwd": "apps/nextjs",
+            "command": "npx tsc --noEmit --project tsconfig.json"
           }
         }
       },
@@ -251,6 +265,13 @@
             "ci": {
               "quiet": true
             }
+          }
+        },
+        "ts-check": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "cwd": "libs/shared/components",
+            "command": "npx tsc --noEmit --project tsconfig.lib.json"
           }
         }
       },

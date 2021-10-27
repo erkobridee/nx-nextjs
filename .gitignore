@@ -37,6 +37,7 @@ yarn-error.log
 testem.log
 /typings
 .husky
+tsconfig.tsbuildinfo
 
 # System Files
 .DS_Store
