@@ -6,5 +6,5 @@ const {
 const configTailwind = require(`${appRootPath}/tools/config/tailwind`);
 
 module.exports = configTailwind({
-  purge: [`${__dirname}/src/${PURGE_MATCH_FILES}`],
+  content: [`${__dirname}/src/${PURGE_MATCH_FILES}`],
 });
