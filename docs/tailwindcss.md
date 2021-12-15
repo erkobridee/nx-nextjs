@@ -2,7 +2,7 @@
 
 # Tailwind CSS
 
-> [release v2.2](https://github.com/tailwindlabs/tailwindcss/releases/tag/v2.2.0) | [blog post](https://blog.tailwindcss.com/tailwindcss-2-2)
+> [release v3.0.3](https://github.com/tailwindlabs/tailwindcss/releases/tag/v3.0.3) | [blog post](https://tailwindcss.com/blog/tailwindcss-v3)
 
 - [Tailwind CSS](https://tailwindcss.com/)
 
@@ -11,10 +11,6 @@
   - [configuration](https://tailwindcss.com/docs/configuration)
 
   - [Optimizing for Production](https://tailwindcss.com/docs/optimizing-for-production)
-
-    - the [purge](https://purgecss.com/) uses the [glob notation](https://github.com/isaacs/node-glob#glob-primer)
-
-    - [Removing unused CSS](https://tailwindcss.com/docs/optimizing-for-production#removing-unused-css) - run when `NODE_ENV=production`
 
 - [Tailwind CSS IntelliSense | VS Code - Extensions](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
