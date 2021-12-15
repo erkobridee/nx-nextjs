@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Story, Meta } from '@storybook/react';
 
 import { TargetBlankLink, TargetBlankLinkProps } from './index';
@@ -8,11 +7,11 @@ export default {
   title: 'Shared/Components/TargetBlankLink',
 } as Meta;
 
-const Template: Story<TargetBlankLinkProps> = (args) => (
-  <TargetBlankLink {...args} />
-);
+type TStory = Story<TargetBlankLinkProps>;
 
-export const Default = Template.bind({});
+const Template: TStory = (args) => <TargetBlankLink {...args} />;
+
+export const Default: TStory = Template.bind({});
 Default.args = {
   className: 'text-blue-700',
   href: 'https://google.com',
