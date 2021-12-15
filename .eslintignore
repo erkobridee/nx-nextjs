@@ -6,3 +6,5 @@
 
 **/webpack.config.js
 **/tailwind.config.js
+
+**/*.d.ts
