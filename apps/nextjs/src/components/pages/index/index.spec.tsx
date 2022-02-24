@@ -1,5 +1,5 @@
 // it's not needed with React v17
-// import React from 'react';
+import React from 'react';
 
 import { render } from '@testing-library/react';
 

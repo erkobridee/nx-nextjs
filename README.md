@@ -1,6 +1,6 @@
 # NxNextjs
 
-This project was generated using [Nx](https://nx.dev/) ([v13.7.3](https://github.com/nrwl/nx/releases/tag/v13.7.3))
+This project was generated using [Nx](https://nx.dev/) ([v13.8.3](https://github.com/nrwl/nx/releases/tag/v13.8.3))
 
 ℹ️&nbsp;&nbsp;use the [node.js](https://nodejs.org/en/) v14 LTS
 
@@ -205,3 +205,5 @@ This project was generated using [Nx](https://nx.dev/) ([v13.7.3](https://github
 ### Known issues on MacOS
 
 - [How to fix the Node gyp Error: No Xcode or CLT version detected | Reactgo](https://reactgo.com/gyp-xcode-or-clt-version-detected/)
+
+- [[StackOverflow] how to solve this npm glob-parent problem](https://stackoverflow.com/questions/68333071/how-to-solve-this-npm-glob-parent-problem)
