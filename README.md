@@ -205,3 +205,5 @@ This project was generated using [Nx](https://nx.dev/) ([v13.8.3](https://github
 ### Known issues on MacOS
 
 - [How to fix the Node gyp Error: No Xcode or CLT version detected | Reactgo](https://reactgo.com/gyp-xcode-or-clt-version-detected/)
+
+- [[StackOverflow] how to solve this npm glob-parent problem](https://stackoverflow.com/questions/68333071/how-to-solve-this-npm-glob-parent-problem)
