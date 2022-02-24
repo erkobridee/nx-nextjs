@@ -1,0 +1,12 @@
+{
+  "migrations": [
+    {
+      "cli": "nx",
+      "version": "13.8.0-beta.1",
+      "description": "Add a postcss config option to apps to load a single config file for all libs",
+      "factory": "./src/migrations/update-13-8-0/add-postcss-config-option",
+      "package": "@nrwl/web",
+      "name": "add-postcss-config-option"
+    }
+  ]
+}
