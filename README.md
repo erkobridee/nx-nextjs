@@ -1,8 +1,8 @@
 # NxNextjs
 
-This project was generated using [Nx](https://nx.dev/) ([v13.8.3](https://github.com/nrwl/nx/releases/tag/v13.8.3))
+This project was generated using [Nx](https://nx.dev/) ([v14.4.2](https://github.com/nrwl/nx/releases/tag/v14.4.2))
 
-ℹ️&nbsp;&nbsp;use the [node.js](https://nodejs.org/en/) v14 LTS
+ℹ️&nbsp;&nbsp;use the [node.js](https://nodejs.org/en/) v16 LTS
 
 ## Goal
 
