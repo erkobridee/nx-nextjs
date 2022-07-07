@@ -3,8 +3,10 @@ const workspaceConfig = require('./workspace.json');
 
 const TAILWIND_CONFIG_FILE = 'tailwind.config.js';
 
-const PROCESS = process.argv[3];
-const [project, runner] = PROCESS.split(':');
+const targetDescriptionStr = process.argv.at(-1);
+const { project, target } = targetDescriptionStr
+  ? JSON.parse(targetDescriptionStr)
+  : { project: undefined, target: '' };
 
 const STORYBOOK_REGEX = /storybook/gi;
 
@@ -14,7 +16,7 @@ const projectConfig = workspaceConfig.projects[project];
 
 if (
   projectConfig &&
-  (STORYBOOK_REGEX.test(runner) || projectConfig.projectType === 'application')
+  (STORYBOOK_REGEX.test(target) || projectConfig.projectType === 'application')
 ) {
   let config = undefined;
   if (fs.existsSync(`${projectConfig.root}/${TAILWIND_CONFIG_FILE}`)) {

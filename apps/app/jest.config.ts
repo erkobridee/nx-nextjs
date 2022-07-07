@@ -1,5 +1,6 @@
-module.exports = {
-  displayName: 'nextjs',
+/* eslint-disable */
+export default {
+  displayName: 'app',
   preset: '../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nrwl/react/plugins/jest',
@@ -9,5 +10,5 @@ module.exports = {
     ],
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/apps/nextjs',
+  coverageDirectory: '../../coverage/apps/app',
 };

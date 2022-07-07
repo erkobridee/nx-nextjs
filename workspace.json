@@ -59,8 +59,15 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "development": {
+              "extractLicenses": false,
+              "optimization": false,
+              "sourceMap": true,
+              "vendorChunk": true
             }
-          }
+          },
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@nrwl/web:dev-server",
@@ -70,8 +77,12 @@
           "configurations": {
             "production": {
               "buildTarget": "app:build:production"
+            },
+            "development": {
+              "buildTarget": "app:build:development"
             }
-          }
+          },
+          "defaultConfiguration": "development"
         },
         "lint": {
           "builder": "@nrwl/linter:eslint",
@@ -82,7 +93,7 @@
         "test": {
           "builder": "@nrwl/jest:jest",
           "options": {
-            "jestConfig": "apps/app/jest.config.js",
+            "jestConfig": "apps/app/jest.config.ts",
             "passWithNoTests": true
           }
         },
@@ -137,8 +148,10 @@
             "outputPath": "dist/apps/nextjs"
           },
           "configurations": {
-            "production": {}
-          }
+            "production": {},
+            "development": {}
+          },
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@nrwl/next:server",
@@ -150,8 +163,13 @@
             "production": {
               "buildTarget": "nextjs:build:production",
               "dev": false
+            },
+            "development": {
+              "buildTarget": "nextjs:build:development",
+              "dev": true
             }
-          }
+          },
+          "defaultConfiguration": "development"
         },
         "export": {
           "builder": "@nrwl/next:export",
@@ -168,7 +186,7 @@
         "test": {
           "builder": "@nrwl/jest:jest",
           "options": {
-            "jestConfig": "apps/nextjs/jest.config.js",
+            "jestConfig": "apps/nextjs/jest.config.ts",
             "passWithNoTests": true
           }
         },
@@ -233,7 +251,7 @@
         "test": {
           "builder": "@nrwl/jest:jest",
           "options": {
-            "jestConfig": "libs/shared/components/jest.config.js",
+            "jestConfig": "libs/shared/components/jest.config.ts",
             "passWithNoTests": true
           }
         },
