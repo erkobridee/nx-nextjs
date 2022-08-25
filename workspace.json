@@ -149,7 +149,9 @@
           },
           "configurations": {
             "production": {},
-            "development": {}
+            "development": {
+              "outputPath": "apps/nextjs"
+            }
           },
           "defaultConfiguration": "production"
         },
