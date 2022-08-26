@@ -92,6 +92,8 @@ This project was generated using [Nx](https://nx.dev/) ([v14.5.10](https://githu
 
   - with the `NODE_ENV=production` that will trigger the Tailwind css purge
 
+  - `NODE_ENV=production nx export nextjs --prod`
+
 - test exported: `npx serve dist/apps/nextjs/exported`
 
 - lint: `nx lint nextjs`
