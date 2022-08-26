@@ -1,6 +1,6 @@
-const { appRootPath } = require('@nrwl/tao/src/utils/app-root');
+const { workspaceRoot } = require('nx/src/utils/workspace-root');
 
-const configStorybook = require(`${appRootPath}/tools/config/webpack/storybook`);
+const configStorybook = require(`${workspaceRoot}/tools/config/webpack/storybook`);
 
 module.exports = {
   stories: [],

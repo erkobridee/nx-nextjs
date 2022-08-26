@@ -1,5 +1,6 @@
-const { appRootPath } = require('@nrwl/tao/src/utils/app-root');
-const withNx = require(`${appRootPath}/tools/config/nextjs`)(__dirname);
+const { workspaceRoot } = require('nx/src/utils/workspace-root');
+
+const withNx = require(`${workspaceRoot}/tools/config/nextjs`)(__dirname);
 
 module.exports = withNx({
   swcMinify: true,

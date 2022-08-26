@@ -4,7 +4,10 @@ const workspaceConfig = require('./workspace.json');
 const TAILWIND_CONFIG_FILE = 'tailwind.config.js';
 
 const targetDescriptionStr = process.argv.at(-1);
-const { project, target } = targetDescriptionStr
+
+const {
+  targetDescription: { project, target },
+} = targetDescriptionStr
   ? JSON.parse(targetDescriptionStr)
   : { project: undefined, target: '' };
 

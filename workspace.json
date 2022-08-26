@@ -115,9 +115,10 @@
         "e2e": {
           "builder": "@nrwl/cypress:cypress",
           "options": {
-            "cypressConfig": "apps/app-e2e/cypress.json",
+            "cypressConfig": "apps/app-e2e/cypress.config.ts",
             "tsConfig": "apps/app-e2e/tsconfig.e2e.json",
-            "devServerTarget": "app:serve"
+            "devServerTarget": "app:serve",
+            "testingType": "e2e"
           },
           "configurations": {
             "production": {
@@ -149,7 +150,9 @@
           },
           "configurations": {
             "production": {},
-            "development": {}
+            "development": {
+              "outputPath": "apps/nextjs"
+            }
           },
           "defaultConfiguration": "production"
         },
@@ -208,9 +211,10 @@
         "e2e": {
           "builder": "@nrwl/cypress:cypress",
           "options": {
-            "cypressConfig": "apps/nextjs-e2e/cypress.json",
+            "cypressConfig": "apps/nextjs-e2e/cypress.config.ts",
             "tsConfig": "apps/nextjs-e2e/tsconfig.e2e.json",
-            "devServerTarget": "nextjs:serve"
+            "devServerTarget": "nextjs:serve",
+            "testingType": "e2e"
           },
           "configurations": {
             "production": {
@@ -303,9 +307,10 @@
         "e2e": {
           "builder": "@nrwl/cypress:cypress",
           "options": {
-            "cypressConfig": "apps/shared-components-e2e/cypress.json",
+            "cypressConfig": "apps/shared-components-e2e/cypress.config.ts",
             "tsConfig": "apps/shared-components-e2e/tsconfig.e2e.json",
-            "devServerTarget": "shared-components:storybook"
+            "devServerTarget": "shared-components:storybook",
+            "testingType": "e2e"
           },
           "configurations": {
             "ci": {

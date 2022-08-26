@@ -1,6 +1,6 @@
 # NxNextjs
 
-This project was generated using [Nx](https://nx.dev/) ([v14.4.2](https://github.com/nrwl/nx/releases/tag/v14.4.2))
+This project was generated using [Nx](https://nx.dev/) ([v14.5.10](https://github.com/nrwl/nx/releases/tag/14.5.10))
 
 ℹ️&nbsp;&nbsp;use the [node.js](https://nodejs.org/en/) v16 LTS
 
@@ -91,6 +91,8 @@ This project was generated using [Nx](https://nx.dev/) ([v14.4.2](https://github
 - export: `nx export nextjs`
 
   - with the `NODE_ENV=production` that will trigger the Tailwind css purge
+
+  - `NODE_ENV=production nx export nextjs --prod`
 
 - test exported: `npx serve dist/apps/nextjs/exported`
 
